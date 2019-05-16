@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    CIS 408
+    Ernest Klimek
+    CSU ID: 2569481 -->
+    <title>Ernest Klimek</title>
+    <!--tags for SEO -->
+    <meta name="Description" content="Porfolio for Ernest Klimek, former student at Cleveland State University">
+    <meta name="keywords" content="Ernest,Klimek,student,programming,computer,science,cleveland,state,university">
+    <meta name="author" content="Ernest Klimek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            font-family: 'Roboto';
+            float: right;
+        }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                /* Add a color to the active/current link */
+                .topnav a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+
+
+        /* stuff for slide show */
+        .myslides {
+            width: 50%;
+            padding-left: 25%;
+        }
+
+
+        .slidesdiv {
+            position: relative;
+        }
+
+            .slidesdiv .leftbtn {
+                position: absolute;
+                left: 0%;
+                top: 0%;
+            }
+
+            .slidesdiv .rightbtn {
+                position: absolute;
+                right: 0%;
+                top: 0%;
+            }
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(122,255,255); /* Fallback color */
+            background-color: rgba(122,255,255,0.99); /* Black w/ opacity */
+        }
+
+        /*screen size adjustments*/
+        @media only screen and (max-width: 1024px) {
+            .smallscreen {
+                display: block;
+            }
+
+            .bigscreen {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) {
+            .smallscreen {
+                display: none;
+            }
+
+            .bigscreen {
+                display: block;
+            }
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c5377f689f1bd00113e1cb6&product=inline-share-buttons' async='async'></script>
+    <script type="text/javascript" src="http://www.zinsolution.com/js/testsendmessage.js?id=1549256380895" async="async"></script>
+
+    <script type="text/javascript" src="http://www.zinsolution.com/js/testsendmessage.js?id=1550001524254"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c6333177056550011c49ea5&product=inline-share-buttons' async='async'></script>
+</head>
+<body onload="afterLoad();">
+
+    <!-- Navigation Bar-->
+    <div class="topnav">
+        <a href="#aboutme">About me</a>
+        <a href="#education">Education</a>
+        <a href="#myfamily">My Family</a>
+        <a href="#share">Share</a>
+    </div>
+
+
+    <!--BANNER IMAGE-->
+    <div id="sectionimage" class="width:100%;background-color:white;">
+        <img class="bigscreen" style="margin-top:-60px;height:auto;width:100%;z-index:0; border-radius: 1px;"
+             src="biggerbanner.jpg" />
+        <img class="smallscreen" style="margin-top:0px;height:auto;width:100%;z-index:0; border-radius: 1px;"
+             src="biggerbanner.jpg" />
+
+
+        <!-- ABOUT ME TAB-->
+        <div id="aboutme" style="background-color:white;padding-bottom:20px;padding-top:20px;text-align:center;padding-left:12%;padding-right:12%;align:center;z-index:-1;">
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;font-style:bold;color:orange;font-family:'Roboto';letter-spacing:2px;"> &nbsp;About Me</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+        </div>
+        <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <div class="smallscreen">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pt2kja55EPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div style="padding-left:5px;padding-right:10px; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <div class="smallscreen">
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:5px;color:black;">
+                    Hello! My name is Ernest Klimek. I am 25 years old. I am a computer science student at Cleveland State University.
+                    I have a 5 year old daughter named Amilynn. I also have a wonderful wife named Caitlyn. I enjoy playing games! one of
+                    my favorite games is Mario kart. You can see me racing in Mario Kart in the included video.
+                </p>
+            </div>
+        </div>
+        <div class="bigscreen">
+            <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pt2kja55EPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:20px;color:black;">
+                    Hello! My name is Ernest Klimek. I am 25 years old. I am a computer science student at Cleveland State University.
+                    I have a 5 year old daughter named Amilynn. I also have a wonderful wife named Caitlyn. I enjoy playing games! one of
+                    my favorite games is Mario kart. You can see me racing in Mario Kart in the included video.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- -EDUCATION TAB-->
+        <div id="education" style="background-color:white;padding-bottom:20px;padding-top:20px;text-align:center;padding-left:12%;padding-right:12%;align:center;z-index:-1;">
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;font-style:bold;color:orange;font-family:'Roboto';letter-spacing:2px;"> &nbsp;Education</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+        </div>
+        <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <img class="smallscreen"
+                 style="padding:10px;width:40%;min-width:150px;height:auto;" src="CSU_Logo.jpg"> </img >
+        </div>
+        <div style="padding-left:5px;padding-right:10px; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <div class="smallscreen">
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:5px;color:black;">
+                    Cleveland State University <br / >
+                    Graduation: May 2019 <br / >
+                    Degree: Bachelor of Science in Computer Science <br / >
+
+                </p>
+            </div>
+        </div>
+        <div class="bigscreen">
+            <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+                <img style="padding:10px;width:20%;max-width:160px;height:auto;" src="CSU_Logo.jpg" alt="CSU" / >
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:20px;color:black;">
+                    Cleveland State University <br / >
+                    Graduation: May 2019 <br / >
+                    Degree: Bachelor of Science in Computer Science <br / >
+
+                </p>
+            </div>
+        </div>
+        <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <img class="smallscreen"
+                 style="padding:10px;width:40%;min-width:150px;height:auto;" src="triceratopslogo.jpg"> </img >
+        </div>
+        <div style="padding-left:5px;padding-right:10px; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <div class="smallscreen">
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:5px;color:black;">
+                    Cuyahoga Community College <br / >
+                    Graduation: May 2017 <br / >
+                    Degree: Associate of Arts<br / >
+                    Associate of Science<br / >
+
+                </p>
+            </div>
+        </div>
+        <div class="bigscreen">
+            <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+                <img style="padding:10px;width:20%;max-width:160px;height:auto;" src="triceratopslogo.jpg" alt="CCC" / >
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:20px;color:black;">
+                    Cuyahoga Community College <br / >
+                    Graduation: May 2017 <br / >
+                    Degrees: Associate of Arts & Associate of Science<br / >
+
+                </p>
+            </div>
+        </div>
+        <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <img class="smallscreen"
+                 style="padding:10px;width:40%;min-width:150px;height:auto;" src="comptia.png"> </img >
+        </div>
+        <div style="padding-left:5px;padding-right:10px; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+            <div class="smallscreen">
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:5px;color:black;">
+                    Comptia A + Certified<br / >
+                    since May 2016
+                </p>
+            </div>
+        </div>
+        <div class="bigscreen">
+            <div style="padding-top:10px;padding-left:10%;padding-right:10%; display:flex;flex-flow:row;align-items:center;justify-content:center;">
+                <img style="padding:10px;width:20%;max-width:160px;height:auto;" src="comptia.png" alt="a+c" / >
+                <p style="font-family:'Karla';font-size:16px;width:100%;text-align:left;color:navy;padding-left:20px;color:black;">
+                    Comptia A + Certified<br / >
+                    since May 2016
+                </p>
+            </div>
+        </div>
+
+
+
+        <!-- FAMILY TAB-->
+        <div id="myfamily" style="background-color:white;padding-bottom:20px;padding-top:20px;text-align:center;padding-left:12%;padding-right:12%;align:center;z-index:-1;">
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;font-style:bold;color:orange;font-family:'Roboto';letter-spacing:2px;"> &nbsp;MY FAMILY</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+        </div>
+
+
+        <h2 id="title"></h2>
+        <div class="slidesdiv">
+            <img id="img1" class="myslides" src="banner1.jpg" />
+            <img class="myslides" src="banner2.jpg" />
+            <img class="myslides" src="banner3.jpg" />
+        </div>
+        <div id="messagebox" style="display:none;">
+            <span id="" class="close"
+                  style="float:right;font-size:48px;pointer:pointer;">&times;</span>
+            <h1> This is the hidden message box.</h1>
+        </div>
+        <script>document.getElementById("title").innerHTML = "";
+    var images = document.getElementsByClassName("myslides");
+    var numimages = images.length;
+    for (var index = 0; index < numimages; index++){
+        images[index].style.display = "none";
+    }
+    images[0].style.display = "block";
+    var picIndex = 0;
+
+
+    function changePicture(delta){
+
+        picIndex = picIndex + delta;
+
+        if (picIndex >= numimages) picIndex = 0;
+        if (picIndex < 0) picIndex = numimages - 1;
+
+        for (var index = 0; index < numimages; index++){
+            images[index].style.display = "none";
+
+            }
+        images[picIndex].style.display = "block";
+        //after 1500 millseconds, call itself again
+        setTimeout(changePicture, 3000, 1);
+    }
+
+    // jquery when document is ready
+    function afterLoad() {
+        setTimeout(changePicture, 1000, 1);
+    setTimeout(showMsgBox, 3000);
+    };</script>
+
+
+
+        <!-- SHARE TAB-->
+
+
+        <div id="share" style="background-color:white;padding-bottom:20px;padding-top:20px;text-align:center;padding-left:12%;padding-right:12%;align:center;z-index:-1;">
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;font-style:bold;color:orange;font-family:'Roboto';letter-spacing:2px;"> &nbsp;Share</span>
+            <span class="smallscreen"> <br> </span>
+            <span style="font-size:24px;color:navy;font-family:'Roboto';letter-spacing:-4px;"> &mdash;&mdash;&mdash;&mdash;</span>
+            <div class="zinmsgdiv" style='color:black;text-decoration:none;'></div>
+
+            <div class="sharethis-inline-share-buttons"></div>
+
+            <script src=â€œ//platform-api.sharethis.com/js/sharethis.js#property =&product =inline-share-buttonsâ€></script>
+</body>
+</html>
